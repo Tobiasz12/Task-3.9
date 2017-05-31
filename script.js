@@ -1,8 +1,3 @@
-ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-);
-
 class App extends React.Component {
     constructor() {
         super();
@@ -28,6 +23,7 @@ class App extends React.Component {
     render() {
         return (
         <div>
+            <h1>Github search</h1>
             <form onSubmit={event => this.onSubmit(event)}>
                 <label htmlFor="searchText">Search by user name</label>
                 <input
@@ -66,3 +62,8 @@ class User extends React.Component {
         );
     }
 }
+
+ReactDOM.render(
+    <App />,
+    document.getElementById('root')
+);
