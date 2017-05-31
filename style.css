@@ -13,7 +13,7 @@ form {
 div {
     width: 550px;
     height: 100px
- display: flex;
+    display: flex;
     justify-content: center;
     margin: auto;
     text-align: center;
@@ -23,8 +23,6 @@ div {
     align-items: center;
     background: #A4A45A;
 }
-
-
 
 a {
     text-decoration: none;
